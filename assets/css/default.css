@@ -173,11 +173,3 @@
 }
 
 /* #endregion Effect */
-
-
-@media(max-width: 767px) {
-
-    .administracion {
-        font-size: 2rem;
-    }
-}

@@ -320,7 +320,7 @@ h2 .featured {
 }
 
 .odd h2 .featured {
-    color: var(--white-color);
+    color: var(--secondary-color);
 }
 
 h2 .featured:before {
@@ -332,11 +332,11 @@ h2 .featured:before {
     height: 100%;
     border-radius: 4px;
     background-color: var(--primary-color);
-    opacity: 0.15;
+    opacity: 0.55;
 }
 
 .odd h2 .featured:before {
-    background-color: var(--secondary-color);
+    background-color: white;
 }
 
 h2 .featured span {
@@ -2838,7 +2838,7 @@ header .navbar-expand .navbar-brand .featured .first {
     position: relative;
     z-index: 1;
     width: 100%;
-    padding: 45px;
+    padding: 25px;
     border-radius: 10px;
     border: none;
     background-color: var(--card-bg-color);

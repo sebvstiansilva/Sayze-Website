@@ -454,7 +454,7 @@ jQuery(function($) {
                     if ( $(section).hasClass('preloader') || $(section).hasClass('skills')) {
                         var symbol = '<i>%</i>';
                     } else {
-                        var symbol = '';
+                        var symbol = '+';
                     }
 
                     if(section == '.counter.preloader' || section == '.counter.funfacts') {
