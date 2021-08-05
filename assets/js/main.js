@@ -478,7 +478,7 @@ jQuery(function($) {
                             gradientAngle: Math.PI / 4
                         }
                     }).on('radial-animation-progress', function(event, progress) {
-                        $(this).find('span').html(Math.round(percent * progress) + symbol);
+                        $(this).find('span').html(symbol + Math.round(percent * progress));
                     })
                 })
             }
